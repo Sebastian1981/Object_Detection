@@ -9,16 +9,14 @@ Images of three types of objects were uploaded to the custom vision ai tool for 
 
 ![custom vision ai](images/custom_vision_ai.jpg)
 
-
-Despite a small set of tagged images, the ai performs already very well with a recall of 93% and a precision of 100%.
+After initial model training, the model was further improved by uploading more tagged training images using the python sdk i.e. running script "train-detector.py". Despite a small set of tagged images, the ai performs already very well with a recall of 93% and a precision of 100%.
 
 ![model performance](images/custom_vision_ai_performance.jpg)
 
 ## Testing the model on unseen Image
-The image shown below was uploaded for inference to test the ai model. 
+The image shown below was uploaded for inference to test the ai model by running the script "test-detector.py. 
 ![test image](test-detector/produce.jpg)
 As can be seen, the ai model detectes all three items with scores clearly above 90%. Also the objects locations seem very accurate.
-
 ![test image](test-detector/output.jpg)
 
 
